@@ -5,7 +5,7 @@
 <script>
 import Vue from 'vue';
 import config from '@/config/style';
-
+console.log('==============')
 export default Vue.extend({
   computed: {
     mode() {
