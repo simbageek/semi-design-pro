@@ -5,7 +5,7 @@
     <div class="login-container">
       <div class="title-container">
         <h1 class="title margin-no">登录到</h1>
-        <h1 class="title">TDesign Test</h1>
+        <h1 class="title">TDesign 测试</h1>
         <div class="sub-title">
           <p class="tip">{{ type == 'register' ? '已有账号?' : '没有账号吗?' }}</p>
           <p class="tip" @click="switchType(type == 'register' ? 'login' : 'register')">
