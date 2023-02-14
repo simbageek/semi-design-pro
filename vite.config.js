@@ -9,6 +9,7 @@ const CWD = process.cwd();
 
 export default ({ mode }) => {
   const { VITE_BASE_URL } = loadEnv(mode, CWD);
+  console.log(VITE_BASE_URL);
 
   return {
     base: VITE_BASE_URL,
